@@ -8,11 +8,13 @@
 
 #import "AppDelegate.h"
 
+#import "FunkyBranch.h"
+
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [FunkyBranch new];
 }
 
 @end

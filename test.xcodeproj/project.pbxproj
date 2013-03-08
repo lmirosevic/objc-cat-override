@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A502FE616EA0A29000A5E8B /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A502FE516EA0A29000A5E8B /* Tree.m */; };
 		8A7DFC4C16EA086D00C4E0B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7DFC4B16EA086D00C4E0B7 /* Cocoa.framework */; };
 		8A7DFC5616EA086D00C4E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7DFC5416EA086D00C4E0B7 /* InfoPlist.strings */; };
 		8A7DFC5816EA086D00C4E0B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DFC5716EA086D00C4E0B7 /* main.m */; };
 		8A7DFC5C16EA086D00C4E0B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A7DFC5A16EA086D00C4E0B7 /* Credits.rtf */; };
 		8A7DFC5F16EA086D00C4E0B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DFC5E16EA086D00C4E0B7 /* AppDelegate.m */; };
 		8A7DFC6216EA086D00C4E0B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A7DFC6016EA086D00C4E0B7 /* MainMenu.xib */; };
+		8A7DFC6A16EA087E00C4E0B7 /* FunkyBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DFC6916EA087E00C4E0B7 /* FunkyBranch.m */; };
+		8A7DFC6D16EA08E700C4E0B7 /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DFC6C16EA08E700C4E0B7 /* Branch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A502FE416EA0A29000A5E8B /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		8A502FE516EA0A29000A5E8B /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		8A7DFC4816EA086D00C4E0B7 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7DFC4B16EA086D00C4E0B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8A7DFC4E16EA086D00C4E0B7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +34,10 @@
 		8A7DFC5D16EA086D00C4E0B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A7DFC5E16EA086D00C4E0B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A7DFC6116EA086D00C4E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8A7DFC6816EA087E00C4E0B7 /* FunkyBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunkyBranch.h; sourceTree = "<group>"; };
+		8A7DFC6916EA087E00C4E0B7 /* FunkyBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunkyBranch.m; sourceTree = "<group>"; };
+		8A7DFC6B16EA08E700C4E0B7 /* Branch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Branch.h; sourceTree = "<group>"; };
+		8A7DFC6C16EA08E700C4E0B7 /* Branch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +93,12 @@
 			children = (
 				8A7DFC5D16EA086D00C4E0B7 /* AppDelegate.h */,
 				8A7DFC5E16EA086D00C4E0B7 /* AppDelegate.m */,
+				8A502FE416EA0A29000A5E8B /* Tree.h */,
+				8A502FE516EA0A29000A5E8B /* Tree.m */,
+				8A7DFC6B16EA08E700C4E0B7 /* Branch.h */,
+				8A7DFC6C16EA08E700C4E0B7 /* Branch.m */,
+				8A7DFC6816EA087E00C4E0B7 /* FunkyBranch.h */,
+				8A7DFC6916EA087E00C4E0B7 /* FunkyBranch.m */,
 				8A7DFC6016EA086D00C4E0B7 /* MainMenu.xib */,
 				8A7DFC5216EA086D00C4E0B7 /* Supporting Files */,
 			);
@@ -168,6 +183,9 @@
 			files = (
 				8A7DFC5816EA086D00C4E0B7 /* main.m in Sources */,
 				8A7DFC5F16EA086D00C4E0B7 /* AppDelegate.m in Sources */,
+				8A7DFC6A16EA087E00C4E0B7 /* FunkyBranch.m in Sources */,
+				8A7DFC6D16EA08E700C4E0B7 /* Branch.m in Sources */,
+				8A502FE616EA0A29000A5E8B /* Tree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +321,7 @@
 				8A7DFC6716EA086D00C4E0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
